@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">todoListUF1</string>
+    <string name="boton_borrar_borrar_notas">BORRAR TODAS LAS NOTAS CA</string>
+    <string name="boton_volver_borrar_notas">VOLVER CA</string>
+    <string name="label1_crear_nota">Escribe una nota CA</string>
+    <string name="caja1_crear_nota">Escribe una nota CA</string>
+    <string name="boton_volver_crear_nota">VOLVER CA</string>
+    <string name="boton_borrar_crear_nota">CREAR CA</string>
+    <string name="label1_ver_notas">Información de la nota CA</string>
+    <string name="boton_volver_ver_notas">VOLVER CA</string>
+    <string name="boton_borrar_ver_notas">BORRAR CA</string>
+    <string name="toast_borrar_notas">Se han borraro todas las notas correctamente CA</string>
+    <string name="toast1_crear_notas">Nota obligatoria CA</string>
+    <string name="toast2_crear_notas">Nota creada correctamente CA</string>
+    <string name="toast_ver_nota">Nota borrada correctamente CA</string>
+</resources>
