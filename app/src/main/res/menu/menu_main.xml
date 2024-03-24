@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_main_reiniciar"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="Reiniciar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_main_borrar"
+        android:title="Borrar Contenido" />
+    <item
+        android:id="@+id/menu_main_ira"
+        android:title="Ir a otra actividad" />
+</menu>
