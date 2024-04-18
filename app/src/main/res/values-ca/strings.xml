@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">audio-player-app</string>
+    <string name="label1_activity_crear">Añadir Audio Online CA</string>
+    <string name="label2_activity_crear">Título CA</string>
+    <string name="audioEditText">Introduce el título del audio CA</string>
+    <string name="label3_activity_crear">Url Video CA</string>
+    <string name="urlEditText">Introduce la url del audio CA</string>
+    <string name="crearButton">CREAR AUDIO CA</string>
+    <string name="label1_activity_reproductor">Reproductor Audio CA</string>
+    <string name="volver_boton_reproductor">VOLVER CA</string>
+    <string name="toast1_crear_activity">Todos los campos son obligatorios CA</string>
+    <string name="toast2_crear_activity">Audio guardado correctamente CA</string>
+    <string name="toast1_reproductor">Imposible reproducir el audio CA</string>
+</resources>

@@ -5,19 +5,12 @@ import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-
-import org.w3c.dom.Text;
 
 import java.io.IOException;
 
@@ -37,8 +30,8 @@ public class ReproductorActivity extends AppCompatActivity {
         String titulo = intent.getStringExtra("titulo");
         String url = intent.getStringExtra("url");
 
-        TextView label1 = findViewById(R.id.textView1_reproductor);
-        TextView label2 = findViewById(R.id.textView2_reproductor);
+        TextView label1 = findViewById(R.id.label2_activity_reproductor);
+        TextView label2 = findViewById(R.id.label3_activity_reproductor);
         Button pausarBoton = findViewById(R.id.pausarBoton);
         Button reproducirBoton = findViewById(R.id.reproducirBoton);
         Button reiniciarBoton = findViewById(R.id.reiniciarBoton);
@@ -72,7 +65,7 @@ public class ReproductorActivity extends AppCompatActivity {
                         });
                         mp.start();
                     } catch (IOException e) {
-                        Toast.makeText(ReproductorActivity.this, "Imposible reproducir el sonido", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(ReproductorActivity.this, getString(R.string.toast1_reproductor), Toast.LENGTH_SHORT).show();
                         e.printStackTrace();
                     }
                 }

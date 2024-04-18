@@ -8,13 +8,13 @@
     tools:context=".CrearActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/label1_activity_crear"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
-        android:text="Añadir Audio Online"
+        android:text="@string/label1_activity_crear"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,27 +32,27 @@
         android:layout_marginTop="64dp"
         android:layout_marginEnd="24dp"
         android:ems="10"
-        android:hint="Introduce el título del audio"
+        android:hint="@string/audioEditText"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/label1_activity_crear" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/label2_activity_crear"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
-        android:text="Título"
+        android:text="@string/label2_activity_crear"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/audioEditText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/label1_activity_crear"
         app:layout_constraintVertical_bias="0.615" />
 
     <EditText
@@ -63,7 +63,7 @@
         android:layout_marginTop="68dp"
         android:layout_marginEnd="24dp"
         android:ems="10"
-        android:hint="Introduce la url del audio"
+        android:hint="@string/urlEditText"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -71,12 +71,12 @@
         app:layout_constraintTop_toBottomOf="@+id/audioEditText" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/label3_activity_crear"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
-        android:text="Url Video"
+        android:text="@string/label3_activity_crear"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/urlEditText"
@@ -91,7 +91,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:background="#673AB7"
-        android:text="CREAR AUDIO"
+        android:text="@string/crearButton"
         android:textColor="#FFFFFF"
         android:textColorHint="#F1F4F4"
         app:layout_constraintBottom_toBottomOf="parent"

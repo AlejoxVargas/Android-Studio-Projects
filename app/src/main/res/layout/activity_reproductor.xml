@@ -8,13 +8,13 @@
     tools:context=".ReproductorActivity">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/label1_activity_reproductor"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="24dp"
-        android:text="Reproductor Audio"
+        android:text="@string/label1_activity_reproductor"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,20 +23,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView1_reproductor"
+        android:id="@+id/label2_activity_reproductor"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:text="TextView"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView2_reproductor"
+        app:layout_constraintBottom_toTopOf="@+id/label3_activity_reproductor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/label1_activity_reproductor" />
 
     <TextView
-        android:id="@+id/textView2_reproductor"
+        android:id="@+id/label3_activity_reproductor"
         android:layout_width="363dp"
         android:layout_height="68dp"
         android:layout_marginStart="24dp"
@@ -47,7 +47,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/label1_activity_reproductor" />
 
     <Button
         android:id="@+id/volver_boton_reproductor"
@@ -56,13 +56,13 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:background="#673AB7"
-        android:text="VOLVER"
+        android:text="@string/volver_boton_reproductor"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2_reproductor"
+        app:layout_constraintTop_toBottomOf="@+id/label3_activity_reproductor"
         app:layout_constraintVertical_bias="0.432" />
 
     <Button
@@ -73,7 +73,7 @@
         android:background="@drawable/pausar"
         app:layout_constraintBottom_toTopOf="@+id/volver_boton_reproductor"
         app:layout_constraintEnd_toStartOf="@+id/reproducirBoton"
-        app:layout_constraintTop_toBottomOf="@+id/textView2_reproductor"
+        app:layout_constraintTop_toBottomOf="@+id/label3_activity_reproductor"
         app:layout_constraintVertical_bias="0.503" />
 
     <Button
@@ -84,7 +84,7 @@
         android:background="@drawable/reiniciar"
         app:layout_constraintBottom_toTopOf="@+id/volver_boton_reproductor"
         app:layout_constraintStart_toEndOf="@+id/reproducirBoton"
-        app:layout_constraintTop_toBottomOf="@+id/textView2_reproductor" />
+        app:layout_constraintTop_toBottomOf="@+id/label3_activity_reproductor" />
 
     <Button
         android:id="@+id/reproducirBoton"
@@ -94,6 +94,6 @@
         app:layout_constraintBottom_toTopOf="@+id/volver_boton_reproductor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2_reproductor" />
+        app:layout_constraintTop_toBottomOf="@+id/label3_activity_reproductor" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
